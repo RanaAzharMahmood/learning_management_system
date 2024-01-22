@@ -1,0 +1,16 @@
+{
+  "port": 4000,
+  "database": {
+    "connection": "postgres://postgres:123@localhost:5432/lms_app",
+    "username": "postgres",
+    "password": "123",
+    "host": "localhost",
+    "name": "lms_app",
+    "port": "5432"
+  },
+  "secretKey": "secret",
+  "timeouts": {
+    "login": "2h",
+    "refreshToken": "4h"
+  }
+}
